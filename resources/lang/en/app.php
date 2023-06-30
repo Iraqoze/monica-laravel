@@ -46,8 +46,8 @@ return [
     'go_back' => 'Go back',
     'file_selected' => 'One file selected…|{count} files selected…',
 
-    'application_title' => 'Monica – personal relationship manager',
-    'application_description' => 'Monica is a tool to manage your interactions with your loved ones, friends, and family.',
+    'application_title' => 'My Rm – personal relationship manager',
+    'application_description' => 'My RM is a tool to manage your interactions with your loved ones, friends, and family.',
     'application_og_title' => 'Have better relations with your loved ones. Free online CRM for friends and family.',
 
     'markdown_description' => 'Want to format your text nicely? We support Markdown to add bold, italic, lists, and more.',
@@ -71,7 +71,7 @@ return [
     'footer_newsletter' => 'Newsletter',
     'footer_source_code' => 'Contribute',
     'footer_version' => 'Version: :version',
-    'footer_new_version' => 'A new version of Monica is available',
+    'footer_new_version' => 'A new version of My RM is available',
 
     'footer_modal_version_whats_new' => 'What’s new',
     'footer_modal_version_release_away' => 'You are 1 release behind the latest version available. You should update your instance.|You are :number releases behind the latest version available. You should update your instance.',

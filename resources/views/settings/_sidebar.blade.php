@@ -19,7 +19,7 @@
       'title' => 'settings.sidebar_settings_storage'])
     @endcomponent
 
-    @component('components.sidebar', [
+    <!-- @component('components.sidebar', [
       'route' => 'settings.export.index',
       'icon' => 'fa fa-cloud-download',
       'title' => 'settings.sidebar_settings_export'])
@@ -29,7 +29,7 @@
       'route' => 'settings.import',
       'icon' => 'fa fa-cloud-upload',
       'title' => 'settings.sidebar_settings_import'])
-    @endcomponent
+    @endcomponent -->
 
     @component('components.sidebar', [
       'route' => 'settings.users.index',
@@ -51,31 +51,31 @@
       'title' => 'settings.sidebar_settings_tags'])
     @endcomponent
 
-    @component('components.sidebar', [
+    <!-- @component('components.sidebar', [
       'route' => 'settings.api',
       'icon' => 'fa fa-random',
       'title' => 'settings.sidebar_settings_api'])
-    @endcomponent
+    @endcomponent -->
 
-    @if (config('laravelsabre.enabled') && ! $accountHasLimitations)
+    <!-- @if (config('laravelsabre.enabled') && ! $accountHasLimitations)
       @component('components.sidebar', [
         'route' => 'settings.dav',
         'icon' => 'fa fa-calendar',
         'title' => 'settings.sidebar_settings_dav'])
       @endcomponent
-    @endif
+    @endif -->
 
-    @component('components.sidebar', [
+    <!-- @component('components.sidebar', [
       'route' => 'settings.auditlog.index',
       'icon' => 'fa fa-id-card-o',
       'title' => 'settings.sidebar_settings_auditlogs'])
-    @endcomponent
+    @endcomponent -->
 
-    @component('components.sidebar', [
+    <!-- @component('components.sidebar', [
       'route' => 'settings.security.index',
       'icon' => 'fa fa-shield',
       'title' => 'settings.sidebar_settings_security'])
-    @endcomponent
+    @endcomponent -->
 
   </ul>
 </div>

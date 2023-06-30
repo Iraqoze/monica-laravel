@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Monica'),
+    'name' => env('APP_NAME', 'My RM'),
 
     /*
     |--------------------------------------------------------------------------
@@ -24,7 +24,7 @@ return [
     |
     */
 
-    'display_name' => env('APP_DISPLAY_NAME', env('APP_NAME', 'Monica')),
+    'display_name' => env('APP_DISPLAY_NAME', env('APP_NAME', 'My RM')),
 
     /*
     |--------------------------------------------------------------------------
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://localhost:8000'),
 
     'asset_url' => env('ASSET_URL', null),
 

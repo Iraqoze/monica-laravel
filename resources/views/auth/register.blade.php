@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-12 col-md-6 offset-md-3 offset-md-3-right">
           <div class="tc">
-            <ul class="horizontal f6 relative mb3 light-silver">
+            <!-- <ul class="horizontal f6 relative mb3 light-silver">
               <li class="mr2">
                 <span class="relative" style="top: 3px;">
                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,18 +29,18 @@
                 @endif
               </li>
             @endforeach
-            </ul>
+            </ul> -->
           </div>
 
           <div class="signup-box">
             <div class="dt w-100">
               <div class="dtc tc">
-                <img src="img/monica.svg" width="97" height="88" alt="">
+                <img src="img/monica.svg" width="130" height="90" alt="MyRM">
               </div>
             </div>
             @if($first)
               <h1>{{ trans('auth.register_title_welcome') }}</h1>
-              <h2>{{ trans('auth.register_create_account') }}</h2>
+              <h2>Create your MyRM account to conttinue<</h2>
             @else
               <h2>{{ trans('auth.register_title_create') }}</h2>
               <h3>{!! trans('auth.register_login', ['url' => 'login']) !!}</h3>
@@ -90,7 +90,7 @@
               <div class="form-check">
                 <label class="form-check-label">
                   <input class="form-check-input" id="policy" name="policy" type="checkbox" value="policy" required>
-                  {!! trans('auth.register_policy', ['url' => 'https://monicahq.com/privacy', 'urlterm' => 'https://monicahq.com/terms', 'hreflang' => 'en', ]) !!}
+                  {!! trans('auth.register_policy', ['url' => 'https://myrm.com/privacy', 'urlterm' => 'https://myrmcom/terms', 'hreflang' => 'en', ]) !!}
                 </label>
               </div>
 

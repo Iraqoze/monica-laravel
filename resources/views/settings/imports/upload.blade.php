@@ -38,10 +38,10 @@
               <h2>{{ trans('settings.import_upload_title') }}</h2>
 
               <div class="warning-zone">
-                <p>{{ trans('settings.import_upload_rules_desc') }}</p>
+                <p>Here some Rules:</p>
                 <ul>
                     <li>{!! trans('settings.import_upload_rule_format') !!}</li>
-                    <li>{{ trans('settings.import_upload_rule_vcard') }}</li>
+                    <li>We support .vcard and .vcf files.</li>
                     <li>{!! trans('settings.import_upload_rule_instructions', [
                       'url1' => 'http://osxdaily.com/2015/07/14/export-contacts-mac-os-x/',
                       'url2' => 'http://www.akruto.com/backup-phone-contacts-calendar/how-to-export-google-contacts-to-csv-or-vcard/'

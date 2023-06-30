@@ -34,7 +34,7 @@
 
         <div class="mb3">
           <h3 class="f3 fw5">{{ trans('settings.personalization_tab_title') }}</h3>
-          <p>{{ trans('settings.personalization_title') }}</p>
+          <p>Here you will find different settings to configure your account.</p>
         </div>
 
         <div class="br3 ba b--gray-monica bg-white mb4">

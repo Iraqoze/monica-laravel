@@ -47,9 +47,11 @@
           <div class="br3 ba b--gray-monica bg-white mb4">
             <div class="pa3 bb b--gray-monica">
               <p class="mb1 b">
-                ☀️&#8199;{{ trans('dashboard.product_changes') }}
+                ☀️&#8199;Notifications
+                <!-- ☀️&#8199;{{ trans('dashboard.product_changes') }} -->
                 <span class="fr normal">
-                  <a href="changelog">{{ trans('dashboard.product_view_details') }}</a>
+                  <!-- <a href="changelog">{{ trans('dashboard.product_view_details') }}</a> -->
+                  <a href="#">{{ trans('dashboard.product_view_details') }}</a>
                 </span>
               </p>
             </div>

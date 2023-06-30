@@ -1,11 +1,5 @@
 <?php
 
-/**
- * ⚠️ Editing not allowed except for 'en' language.
- *
- * @see https://github.com/monicahq/monica/blob/main/docs/contribute/translate.md for translations.
- */
-
 return [
 
     /*
@@ -59,9 +53,9 @@ return [
     'password_reset_action' => 'Reset Password',
     'password_reset_email_content' => 'Click here to reset your password:',
 
-    'register_title_welcome' => 'Welcome to your newly installed Monica instance',
-    'register_create_account' => 'You need to create an account to use Monica',
-    'register_title_create' => 'Create your Monica account',
+    'register_title_welcome' => 'Welcome to your newly installed. Enjoy My RM tool',
+    'register_create_account' => 'You need to create an account to use My RM',
+    'register_title_create' => 'Create your My RM account',
     'register_login' => '<a href=":url">Log in</a> if you already have an account.',
     'register_email' => 'Enter a valid email address',
     'register_email_example' => 'you@home',
